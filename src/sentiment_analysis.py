@@ -35,7 +35,7 @@ def read_file_and_analyze(filename):
     return analyze_sentiment_sentence_level(text)
 
 
-filename = 'src/ID1.txt'
+filename = 'src/ID2.txt'
 
 sentence_sentiments, max_polarity, total_polarity, num_sentences = read_file_and_analyze(filename)
 # print(f"Sentence Sentiments: {sentence_sentiments}")
